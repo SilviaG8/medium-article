@@ -1,0 +1,115 @@
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  margin: 20px  200px;
+}
+
+.heading {
+  color: white;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.article h6 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 40px;
+}
+
+.article h3 {
+  color: #0E6655;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #C3754B;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: white;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wto {
+  color: #0E6655;
+  text-align: center;
+}
+
+.wto-text {
+  text-align: center;
+  font-weight: light;
+}
+
+.card {
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid rgb(240,240,240);
+  box-shadow: 3px 3px 5px 6px #0E6655;
+  padding: 30px;
+  margin: 60px auto;
+}
+
+.info {
+  width: 700px;
+  border-radius: 1px;
+  background-color: rgb(240,240,240);
+  text-align: center;
+  padding: 10px;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.container h4 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+  color: rgb(214, 24, 61);
+  font-family: 'Kalam', cursive;
+}
+
+.container a {
+  background-color: rgb(214, 24, 61);
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.container a:hover {
+  background-color: #0E6655;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
